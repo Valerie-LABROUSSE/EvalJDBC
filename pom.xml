@@ -4,4 +4,16 @@
   <artifactId>evaljdbc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>EvalJDBC</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.postgresql</groupId>
+  		<artifactId>postgresql</artifactId>
+  		<version>42.2.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>net.sf.opencsv</groupId>
+  		<artifactId>opencsv</artifactId>
+  		<version>2.3</version>
+  	</dependency>
+  </dependencies>
 </project>
